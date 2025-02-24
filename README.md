@@ -96,17 +96,17 @@ const indexOfObject = testArrObject.findIndex((person) => person.age === 30);
 console.log(indexOfObject);
 
 // indexOf Example
-const indexOf = testArr.indexOf("pius");
+const indexOf = testArr.indexOf("James");
 console.log(indexOf);
 
-const indexOfObject = testArrObject.indexOf({ name: "fope", age: 25 });
+const indexOfObject = testArrObject.indexOf({ name: "James", age: 20 });
 console.log(indexOfObject);
 
 // lastIndexOf Example
-const lastIndexOf = testArr.lastIndexOf("pius");
+const lastIndexOf = testArr.lastIndexOf("James");
 console.log(lastIndexOf);
 
-const lastIndexOfObject = testArrObject.lastIndexOf({ name: "fope", age: 25 });
+const lastIndexOfObject = testArrObject.lastIndexOf({ name: "James", age: 20 });
 console.log(lastIndexOfObject);
 
 // some Example
@@ -124,10 +124,10 @@ const everyTrueObject = testArrObject.every((person) => person.age > 20);
 console.log(everyTrueObject);
 
 // includes Example
-const includes = testArr.includes("pius");
+const includes = testArr.includes("James");
 console.log(includes);
 
-const includesObject = testArrObject.includes({ name: "fope", age: 25 });
+const includesObject = testArrObject.includes({ name: "James", age: 20 });
 console.log(includesObject); // false because objects are not equal, but they have the same properties.
 
 // push Example
